@@ -1,0 +1,66 @@
+// https://api.tfl.gov.uk/Line/119/Arrivals/490013551E
+
+[
+  {
+  "$type": "Tfl.Api.Presentation.Entities.Prediction, Tfl.Api.Presentation.Entities",
+  "id": "667209202",
+  "operationType": 1,
+  "vehicleId": "BP15OMJ",
+  "naptanId": "490013551E",
+  "stationName": "Verdayne Avenue",
+  "lineId": "119",
+  "lineName": "119",
+  "platformName": "B",
+  "direction": "inbound",
+  "bearing": "74",
+  "destinationNaptanId": "",
+  "destinationName": "Bromley North",
+  "timestamp": "2017-11-20T20:04:42Z",
+  "timeToStation": 479,
+  "currentLocation": "",
+  "towards": "Elmers End, Shrublands or West Wickham",
+  "expectedArrival": "2017-11-20T20:12:41Z",
+  "timeToLive": "2017-11-20T20:13:11Z",
+  "modeName": "bus",
+  "timing": {
+  "$type": "Tfl.Api.Presentation.Entities.PredictionTiming, Tfl.Api.Presentation.Entities",
+  "countdownServerAdjustment": "00:00:01.7969636",
+  "source": "2017-11-17T04:10:02.704Z",
+  "insert": "2017-11-20T20:03:41.446Z",
+  "read": "2017-11-20T20:03:41.446Z",
+  "sent": "2017-11-20T20:04:42Z",
+  "received": "0001-01-01T00:00:00Z"
+  }
+  },
+  {
+  "$type": "Tfl.Api.Presentation.Entities.Prediction, Tfl.Api.Presentation.Entities",
+  "id": "-676263596",
+  "operationType": 1,
+  "vehicleId": "BP15OML",
+  "naptanId": "490013551E",
+  "stationName": "Verdayne Avenue",
+  "lineId": "119",
+  "lineName": "119",
+  "platformName": "B",
+  "direction": "inbound",
+  "bearing": "74",
+  "destinationNaptanId": "",
+  "destinationName": "Bromley North",
+  "timestamp": "2017-11-20T20:04:42Z",
+  "timeToStation": 1143,
+  "currentLocation": "",
+  "towards": "Elmers End, Shrublands or West Wickham",
+  "expectedArrival": "2017-11-20T20:23:45Z",
+  "timeToLive": "2017-11-20T20:24:15Z",
+  "modeName": "bus",
+  "timing": {
+  "$type": "Tfl.Api.Presentation.Entities.PredictionTiming, Tfl.Api.Presentation.Entities",
+  "countdownServerAdjustment": "00:00:01.7973423",
+  "source": "2017-11-17T04:10:02.704Z",
+  "insert": "2017-11-20T20:04:32.733Z",
+  "read": "2017-11-20T20:04:32.733Z",
+  "sent": "2017-11-20T20:04:42Z",
+  "received": "0001-01-01T00:00:00Z"
+  }
+  }
+  ]
