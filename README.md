@@ -1,7 +1,7 @@
-# Bus Buddy
+# Bus Buddy <img src="public/images/busbuddyalexa.png" width="200px" align="right">
 
 ## What is it?
-A way to get realtime data for the buses arriving at your local bus stop using Amazon Echo's voice recognition capabilities.
+A way to get realtime data for the buses arriving at your local bus stop using Amazon Echo's voice recognition capabilities and TFL's public live bus arrivals API.
 
 ## What does it do?
 First you need to obtain the five-digit code displayed on the bus stop you want to get data for.
@@ -12,6 +12,9 @@ Then there are three ways of accessing the application:
 1. Alexa, ask Bus Buddy which buses stop at my bus stop?
 
 In response, Bus Buddy will tell you the time in minutes until the arrival of the next bus at your stop, or the various lines that stop there.
+
+## Demo
+https://www.youtube.com/watch?v=lbkjaF0eito
 
 ## What's going on behind the scenes?
 Making Bus Buddy required us to link three separate Amazon services and Transport for London's API together.
