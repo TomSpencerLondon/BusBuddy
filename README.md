@@ -13,6 +13,13 @@ Then there are three ways of accessing the application:
 
 In response, Bus Buddy will tell you the time in minutes until the arrival of the next bus at your stop, or the various lines that stop there.
 
+## The Team
+
+* Ed Withers
+* Aram Simonian
+* Austin Rowsell
+* David Halewood
+
 ## Demo
 https://www.youtube.com/watch?v=lbkjaF0eito
 
