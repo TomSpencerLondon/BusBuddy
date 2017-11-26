@@ -15,7 +15,7 @@ In response, Bus Buddy will tell you the time in minutes until the arrival of th
 
 ## The Team
 
-* Ed Withers
+* Ed Lowther
 * Aram Simonian
 * Austin Rowsell
 * David Halewood
