@@ -1,0 +1,72 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "GetNextBusIntent",
+        "samples": [
+          "when's my next bus",
+          "when my next bus is",
+          "when the next bus is",
+          "when's the next bus"
+        ],
+        "slots": []
+      },
+      {
+        "name": "SetBusStopIntent",
+        "samples": [
+          "to set my bus stop to {busStopCode}"
+        ],
+        "slots": [
+          {
+            "name": "busStopCode",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      }
+    ],
+    "invocationName": "bus buddy"
+  },
+  "prompts": [
+    {
+      "id": "Confirm.Intent-SetBusStopIntent",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "what is your bus stop code"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "SetBusStopIntent",
+        "confirmationRequired": true,
+        "prompts": {
+          "confirmation": "Confirm.Intent-SetBusStopIntent"
+        },
+        "slots": [
+          {
+            "name": "busStopCode",
+            "type": "AMAZON.NUMBER",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}
